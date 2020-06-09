@@ -108,7 +108,9 @@
 
     function handler (f, form, event) {
       event.preventDefault()
-      f(form.querySelector('.download--filename:checked').value)
+      f('lyreco.3.9MB.pdf')
+      f('example.48K.pdf')
+      //f(form.querySelector('.download--filename:checked').value)
     }
 
     function downloadFile (filePath) {
